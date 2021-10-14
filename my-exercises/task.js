@@ -1,5 +1,5 @@
-var myArray = [10,9,"+","D","C","+"]
-var newArray = []
+const myArray = [10,9,"+","D","C","+"]
+let newArray = []
 
 for(let i=0;i<myArray.length;i++){
     if(typeof(myArray[i]) === "number"){
@@ -22,10 +22,9 @@ for(let i=0;i<myArray.length;i++){
     
 }
 
-var sum=0
-      for(let i= 0;i<newArray.length;i++){
-          sum += newArray[i]
+let sum=0
+for(let i= 0;i<newArray.length;i++){
+    sum += newArray[i]
 
-          console.log(sum)
-          
-      }
+    console.log(sum)
+}
